@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: npm install
-        run: npm install --immutable
+      - name: yarn install
+        run: yarn install --immutable
 
       - name: yarn build
         run: yarn build
